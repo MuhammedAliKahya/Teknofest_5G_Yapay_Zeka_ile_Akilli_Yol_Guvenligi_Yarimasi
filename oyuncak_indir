@@ -1,0 +1,5 @@
+from roboflow import Roboflow
+
+rf = Roboflow(api_key="SİZİN ROBOFLOW IP NİZ")
+project = rf.workspace("muhammeds-workspace-uoped").project("togg-oyuncak")
+dataset = project.version(1).download("yolov8")
