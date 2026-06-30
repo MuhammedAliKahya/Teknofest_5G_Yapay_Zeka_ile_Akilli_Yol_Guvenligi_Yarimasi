@@ -1,5 +1,5 @@
 # Teknofest 5G Yapay Zeka ile Akıllı Yol Güvenliği
-Burada sizlerle kaynak kodlarını ve kaggle da ki veri setlerini uzaktan indirmemizi sağlayacak python kodlarını paylaşıyorum.
+Burada sizlerle kaynak kodlarını ve Roboflow da ki veri setlerini uzaktan indirmemizi sağlayacak python kodlarını paylaşıyorum.
 
 ### 📂 Veri Seti İndirme Betikleri (Data Download Scripts)
 
