@@ -1,6 +1,6 @@
 from roboflow import Roboflow
 
-rf = Roboflow(api_key="ROBOFLOW IP ADRESİNİZİ BURAYA GİRİN")
+rf = Roboflow(api_key="YOUR_ROBOFLOW_API_KEY")
 project = rf.workspace("toggai").project("turkish-license-plate")
 version = project.version(4)
 dataset = version.download("yolov8")
