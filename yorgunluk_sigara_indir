@@ -1,0 +1,6 @@
+from roboflow import Roboflow
+
+rf = Roboflow(api_key="ROBOFLOW IP ADRESİNİ YAZ")
+project = rf.workspace("muhammeds-workspace-uoped").project("driver-monitoring-system-v0mei-ls8ie")
+version = project.version(1)
+dataset = version.download("yolov8")
